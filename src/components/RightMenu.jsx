@@ -9,7 +9,7 @@ const RightMenu = ({ items, activeIndex, onHover, onClick }) => {
            onClick={() => onClick(i)} // 🔊 click sound
           onMouseEnter={onHover} //
           className={`transition-colors ${
-            i === activeIndex ? "text-white" : "text-gray-900 hover:text-white"
+            i === activeIndex ? "text-white" : "text-black hover:text-white"
           }`}
         >
           {item}
